@@ -1,0 +1,5 @@
+if(EXISTS "D:/Work/ITMO/ck/CK-Lab3/build/solution-tests[1]_tests.cmake")
+  include("D:/Work/ITMO/ck/CK-Lab3/build/solution-tests[1]_tests.cmake")
+else()
+  add_test(solution-tests_NOT_BUILT solution-tests_NOT_BUILT)
+endif()

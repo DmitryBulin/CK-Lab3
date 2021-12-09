@@ -1,0 +1,111 @@
+Start testing: Dec 09 20:41 RTZ 2 (ceia)
+----------------------------------------------------------
+1/4 Testing: SortTest.EqualSize
+1/4 Test: SortTest.EqualSize
+Command: "D:/Work/ITMO/ck/CK-Lab3/build/Debug/solution-tests.exe" "--gtest_filter=SortTest.EqualSize" "--gtest_also_run_disabled_tests"
+Directory: D:/Work/ITMO/ck/CK-Lab3/build
+"SortTest.EqualSize" start time: Dec 09 20:41 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Running main() from D:\Work\ITMO\ck\CK-Lab3\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SortTest.EqualSize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortTest
+[ RUN      ] SortTest.EqualSize
+[       OK ] SortTest.EqualSize (0 ms)
+[----------] 1 test from SortTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"SortTest.EqualSize" end time: Dec 09 20:41 RTZ 2 (ceia)
+"SortTest.EqualSize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: SortTest.RandomPositiveNumbers
+2/4 Test: SortTest.RandomPositiveNumbers
+Command: "D:/Work/ITMO/ck/CK-Lab3/build/Debug/solution-tests.exe" "--gtest_filter=SortTest.RandomPositiveNumbers" "--gtest_also_run_disabled_tests"
+Directory: D:/Work/ITMO/ck/CK-Lab3/build
+"SortTest.RandomPositiveNumbers" start time: Dec 09 20:41 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Running main() from D:\Work\ITMO\ck\CK-Lab3\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SortTest.RandomPositiveNumbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortTest
+[ RUN      ] SortTest.RandomPositiveNumbers
+[       OK ] SortTest.RandomPositiveNumbers (0 ms)
+[----------] 1 test from SortTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"SortTest.RandomPositiveNumbers" end time: Dec 09 20:41 RTZ 2 (ceia)
+"SortTest.RandomPositiveNumbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: SortTest.NegativeNumbers
+3/4 Test: SortTest.NegativeNumbers
+Command: "D:/Work/ITMO/ck/CK-Lab3/build/Debug/solution-tests.exe" "--gtest_filter=SortTest.NegativeNumbers" "--gtest_also_run_disabled_tests"
+Directory: D:/Work/ITMO/ck/CK-Lab3/build
+"SortTest.NegativeNumbers" start time: Dec 09 20:41 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Running main() from D:\Work\ITMO\ck\CK-Lab3\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SortTest.NegativeNumbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortTest
+[ RUN      ] SortTest.NegativeNumbers
+[       OK ] SortTest.NegativeNumbers (0 ms)
+[----------] 1 test from SortTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"SortTest.NegativeNumbers" end time: Dec 09 20:41 RTZ 2 (ceia)
+"SortTest.NegativeNumbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: SortTest.LotsOfEqualNumbers
+4/4 Test: SortTest.LotsOfEqualNumbers
+Command: "D:/Work/ITMO/ck/CK-Lab3/build/Debug/solution-tests.exe" "--gtest_filter=SortTest.LotsOfEqualNumbers" "--gtest_also_run_disabled_tests"
+Directory: D:/Work/ITMO/ck/CK-Lab3/build
+"SortTest.LotsOfEqualNumbers" start time: Dec 09 20:41 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Running main() from D:\Work\ITMO\ck\CK-Lab3\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SortTest.LotsOfEqualNumbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortTest
+[ RUN      ] SortTest.LotsOfEqualNumbers
+[       OK ] SortTest.LotsOfEqualNumbers (0 ms)
+[----------] 1 test from SortTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"SortTest.LotsOfEqualNumbers" end time: Dec 09 20:41 RTZ 2 (ceia)
+"SortTest.LotsOfEqualNumbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 09 20:41 RTZ 2 (ceia)

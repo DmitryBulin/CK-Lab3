@@ -1,0 +1,5 @@
+SortTest.RandomPositiveNumbers 2 0.0455257
+SortTest.EqualSize 1 0.0939639
+SortTest.NegativeNumbers 1 0.0942237
+SortTest.LotsOfEqualNumbers 1 0.0857365
+---
