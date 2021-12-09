@@ -12,6 +12,7 @@ int main()
     for (int i = 0; i < n; i++)
         cin >> arr[i];
     arr = MyOnSort(arr);
+    cout << "Sorted array: \n";
     for(auto i : arr)
         cout << i << " ";
     return 0;
