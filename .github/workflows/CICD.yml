@@ -25,5 +25,12 @@ jobs:
           ctest
           cd ..
       - name: Create-Exe
-        run:
+        run: 
           g++ main.cc -o main.exe
+      - name: Archive executable
+        uses: actions/upload-artifact@v2
+        with:
+          name: windows-executable-result
+          path: main.exe
+          
+
