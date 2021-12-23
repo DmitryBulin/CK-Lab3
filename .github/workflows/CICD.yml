@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+
+  build-and-test:
+  
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Build 
+        run: |
+          cmake -S . -B build
+          cmake --build build
+      - name: Test
+        run: |
+          cd build
+          ctest
+          cd ..
+      - name: Create-Exe
+        run:
+          g++ main.cc -o main.exe
