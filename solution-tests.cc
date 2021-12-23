@@ -11,7 +11,8 @@ TEST(SortTest, EqualSize)
 {
     vector<vector<int>> tests = 
     {
-        {{1, 2, 3}}
+        {{1, 2, 3}},
+        {{5, 5, 5, 6}}
     };
     for (auto test : tests)
         ASSERT_EQ(MyOnSort(test).size(), test.size());
